@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_typography_titles",
+  "info": {
+    "displayName": "Title",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "Level": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ]
+    }
+  }
+}
