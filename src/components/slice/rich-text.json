@@ -2,7 +2,8 @@
   "collectionName": "components_typography_rich_texts",
   "info": {
     "displayName": "Rich Text",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {

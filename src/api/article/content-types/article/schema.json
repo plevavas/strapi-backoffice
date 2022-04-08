@@ -35,17 +35,17 @@
       "type": "text"
     },
     "Thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": false
+      }
     },
     "Slug": {
       "pluginOptions": {
@@ -65,7 +65,8 @@
       },
       "type": "dynamiczone",
       "components": [
-        "typography.title"
+        "slice.title",
+        "slice.rich-text"
       ]
     }
   }
